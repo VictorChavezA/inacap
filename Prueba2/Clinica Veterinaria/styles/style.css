@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #ffffff; 
+    color: #0c0305;
+    margin: 1;
+    text-align: right;
+    padding: 80px 0;
+    background:  url("https://cdn.pixabay.com/photo/2021/11/23/18/27/veterinary-6819364_1280.png") center;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;     
+}
+
+header h1{
+    font-size: 1.2em;
+}
+
+.btn:hover{
+    background-color: #75c4bc;
+}
+
+section{
+    padding: 80px 0;
+}
+
+h2{
+    text-align: center;
+    background-color:#75c4bc 
+}
+
+.caracteristica {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.caracteristica h3 {
+    font-size: 1.5em;
+    background-color:#75c4bc ;
+}
+
+.testimonio {
+    background-color: #e9f2f3;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.testimonio p {
+    font-style: oblique;
+}
+
+.testimonio cite {
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"]:hover {
+    background-color: #259395;
+}
+
+button[type="submit"]{
+    background-color: #75c4bc;
+}
+
+footer {
+    background-color: #75c4bc;
+    color:#060606;
+    text-align: justify;
+    padding: 20px 0;
+}
